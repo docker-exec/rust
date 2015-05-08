@@ -1,5 +1,6 @@
 FROM        debian:8.0
 MAINTAINER  andystanton
+ENV         LANG C.UTF-8
 ENV         RUST_VERSION 1.0.0-beta
 ENV         PATH $PATH:/usr/local/bin
 RUN         apt-get update && \
